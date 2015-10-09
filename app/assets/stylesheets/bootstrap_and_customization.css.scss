@@ -1,7 +1,21 @@
-$body_bg:           #ecf0f1;
-$navbar-default-bg: #8e44ad;
-$navbar-default-link-color:   #FFF; 
-$brand-primary:     #9b59b6;
-$jumbotron-bg:      #ecf0f1;
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Josefin+Slab:400,700);
 
+$body_bg:                          #ecf0f1;
+$font-family-sans-serif:           'Josefin Slab', Courier, Arial, serif;
+$navbar-height:                    45px;
+$navbar-default-bg:                #FFF;
+$navbar-default-link-color:        #000;
+$navbar-default-brand-color:       #000;
+$brand-primary:                    #8e44ad;
+$jumbotron-bg:                     #ecf0f1;
+
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
