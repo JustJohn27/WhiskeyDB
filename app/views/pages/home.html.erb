@@ -1,11 +1,11 @@
 <div class="jumbotron center">
-	<h1>Welcome to the WhiskeyDB</h1>
+	<h1>Welcome to WhiskeyDB</h1>
 	<% if user_signed_in? %>
 	# do something
 	<% else %>
 		<p><%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %> 
 	   		<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
     	</p>
-		<p>to search or update the largest whiskey database</p>
+		<p>to search the whiskey database</p>
 	<% end %>
 </div>
