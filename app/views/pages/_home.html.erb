@@ -1,12 +1,8 @@
 <div class="jumbotron center">
-	<h1>Welcome to WhiskeyDB</h1>
-	<% if user_signed_in? %>
-	# do something
-	<% else %>
+	<h1>WhiskeyDB</h1>
 		<p><%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
 		   <!-- Replace root_path with this code when we're ready for beta testers <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %> -->
 		   <%= link_to "Sign up", root_path, class: "btn btn-primary btn-lg" %>
     	</p>
-		<p>to search the whiskey database</p>
-	<% end %>
+	<p>Browse the Whiskey Database</p>
 </div>
